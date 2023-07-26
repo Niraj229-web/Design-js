@@ -1,0 +1,31 @@
+footer{
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color:rgb(217 178 80 / 98%) ;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer h1{
+    font: 700 3rem "Cursive";
+    color:  #090c31;
+}
+footer p{
+    font: 300 1.2rem "roboto";
+    
+}
+footer h5{
+    font: 700 2rem "roboto";
+}
+footer a{
+    display: flex;
+    flex-direction: column;
+    color: rgb(44,44,44);
+    font: 900 1.2rem "Cursive";
+}
